@@ -1,0 +1,34 @@
+import streamlit as st
+with st.sidebar:
+    st.title(" Portfolium")
+    
+    st.markdown("***")
+    st.write(" CONTACTE")           
+    st.write("**Nom :** Félix Bandiaky")
+    st.write("**Telephone :** 762331661") 
+    st.write("**Email :** felixbandiaky317@gmail.com")
+    st.write("**Adresse :** Dakar,Senegal")
+
+    st.markdown("***")
+    st.write(" Parcoures scolaire")            
+    st.write("2026-2027:BTS")
+    st.write("2024-2025:BAC") 
+    
+st.header(" Profil")
+st.write("Géomaticien en formation motivé et passionné par le développement d'application en Python et streamlit")
+
+st.header(" Formation")
+st.write("BTS en Géomatique")
+st.write("Centre d'Entreprenariat et de Développement Tecnique (G15)")
+st.write("Baccalauréat - Série L2")
+
+st.header(" Compétences")
+
+st.write("Développment en Systèmes d'Information Géographique (SIG)")
+st.write("Notions de base en Carthographie")
+st.write("Gestion de bases de données Géographiques")
+st.write("Développement d'applications web avec Python et Streamlit")
+
+st.header("  Expériences")
+
+st.write("Stage académique et projets personnels en python")
